@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.frame {
+  display: flex;
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 8px;
+}
+
+.thumnail {
+  /* width: 40%; */
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px;
+}
+
+.title {
+  font-size: 0.75rem;
+  margin-bottom: 8px;
+}
+
+.channelTitle {
+  font-size: 0.5rem;
+  color: gray;
+}

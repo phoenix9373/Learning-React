@@ -1,16 +1,11 @@
-import { Fragment, useState } from "react";
-import "./app.css";
-import Header from "./components/header";
-import Main from "./components/main";
+import React from "react";
+import Youtube from "./containers/Youtube";
 
 function App() {
-  const [items, setItems] = useState(null);
-
   return (
-    <Fragment>
-      <Header setItems={setItems} />
-      <Main items={items} />
-    </Fragment>
+    <>
+      <Youtube></Youtube>
+    </>
   );
 }
 
